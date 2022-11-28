@@ -40,7 +40,8 @@ library
                        mtl >=2.1 && <2.4,
                        text >=1.1 && <2.1,
                        transformers >=0.3 && <0.7,
-                       unordered-containers ==0.2.*
+                       unordered-containers ==0.2.*,
+                       somenonexistentpackagehere
   ghc-options:         -Wall -fno-warn-name-shadowing
 
 test-suite spec
